@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+
+.prodcuto {
+    padding:30px;
+    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.prodcuto:hover {
+    transform: scale(1.05); 
+}
+
+.prodcuto img {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.prodcuto div {
+    text-align: center;
+    background-color: white; 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.prodcuto h4 {
+    font-size: 20px; 
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.prodcuto p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.verMas {
+    text-decoration: none;
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    align-self: center; 
+    transition: background-color 0.3s ease
+}

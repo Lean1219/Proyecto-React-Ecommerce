@@ -1,0 +1,60 @@
+.Navbar {
+    background-color: #6a1b9a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 15px 30px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.logo h1 {
+    color: #ffffff;
+    margin: 0; 
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0; 
+}
+
+.menu li {
+    margin-right: 30px; 
+}
+
+.menuLink {
+    font-size: 18px; 
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menuLink:hover {
+    color: #ffd600;
+}
+
+.Navbar::before {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.seeCarrito {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.seeCarrito:hover {
+    color: #ffd600;
+}
+
+
+
