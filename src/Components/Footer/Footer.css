@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLogo {
+    font-size: 18px;
+    margin: 0;
+    color: #00bcd4;
+}
+
+.footerEnlaces {
+    font-size: 14px;
+    color: #00bcd4;
+}
+
+.footerLink {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerDerechos {
+    margin-top: 10px;
+}

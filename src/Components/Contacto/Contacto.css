@@ -1,0 +1,55 @@
+.Contacto {
+    max-width: 600px;
+    margin: 10vh auto; /* Centrar verticalmente y horizontalmente */
+    padding: 50px; /* Aumentar el espacio interno para mayor amplitud */
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Contacto h2 {
+    color: #333;
+}
+
+.Contacto p {
+    color: #555;
+}
+
+.Contacto form {
+    display: grid;
+    gap: 10px;
+}
+
+.Contacto label {
+    font-weight: bold;
+    color: #333;
+}
+
+.Contacto input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Contacto textarea {
+    width: calc(100% - 20px); 
+    min-height: 100px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.Contacto button {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Contacto button:hover {
+    background-color:  #0056b3;
+}

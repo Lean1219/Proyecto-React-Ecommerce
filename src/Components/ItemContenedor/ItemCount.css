@@ -1,0 +1,36 @@
+.itemCount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.itemCount button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.itemCount p {
+    font-size: 18px;
+    color: #6a1b9a;
+    margin: 0;
+}
+
+
+.agregarCarrito {
+    background-color:#6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.itemCount button:hover,
+.agregarCarrito:hover {
+    background-color: #6a1b9a;
+}

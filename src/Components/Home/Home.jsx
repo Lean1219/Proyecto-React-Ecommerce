@@ -1,5 +1,5 @@
 import Banner from "../Banner/Banner";
-import ItemLisContainer from "../ItemListContainer/ItemLisContainer";
+import ItemLisContainer from "../ItemContenedor/ItemLisContainer";
 
 const Home = () => {
     return (
